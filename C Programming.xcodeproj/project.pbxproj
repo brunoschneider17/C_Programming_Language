@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C79FE1761801149800DEB476 /* CElsius.c in Sources */ = {isa = PBXBuildFile; fileRef = C79FE1741801149800DEB476 /* CElsius.c */; };
-		C79FE1771801149800DEB476 /* Hello World.c in Sources */ = {isa = PBXBuildFile; fileRef = C79FE1751801149800DEB476 /* Hello World.c */; };
+		C7029ECD1801188F00E5A942 /* CElsius.c in Sources */ = {isa = PBXBuildFile; fileRef = C7029ECA1801188F00E5A942 /* CElsius.c */; };
+		C7029ECE1801188F00E5A942 /* Hello World.c in Sources */ = {isa = PBXBuildFile; fileRef = C7029ECB1801188F00E5A942 /* Hello World.c */; };
+		C7029ECF1801188F00E5A942 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C7029ECC1801188F00E5A942 /* main.c */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C79FE17F1801182300DEB476 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		C79FE16D1801144B00DEB476 /* libC Programming.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libC Programming.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C79FE1741801149800DEB476 /* CElsius.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CElsius.c; sourceTree = "<group>"; };
-		C79FE1751801149800DEB476 /* Hello World.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Hello World.c"; sourceTree = "<group>"; };
+		C7029ECA1801188F00E5A942 /* CElsius.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CElsius.c; path = "C Programming Book/CElsius.c"; sourceTree = SOURCE_ROOT; };
+		C7029ECB1801188F00E5A942 /* Hello World.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "Hello World.c"; path = "C Programming Book/Hello World.c"; sourceTree = SOURCE_ROOT; };
+		C7029ECC1801188F00E5A942 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = "C Programming Book/main.c"; sourceTree = SOURCE_ROOT; };
+		C7029ED01801191B00E5A942 /* C_Programming.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = C_Programming.1; path = "C Programming Book/C_Programming.1"; sourceTree = SOURCE_ROOT; };
+		C79FE1811801182300DEB476 /* C Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C79FE16A1801144A00DEB476 /* Frameworks */ = {
+		C79FE17E1801182300DEB476 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -28,43 +43,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C79FE1641801144A00DEB476 = {
+		C79FE1781801182300DEB476 = {
 			isa = PBXGroup;
 			children = (
-				C79FE1741801149800DEB476 /* CElsius.c */,
-				C79FE1751801149800DEB476 /* Hello World.c */,
-				C79FE16E1801144B00DEB476 /* Products */,
+				C79FE1831801182300DEB476 /* C Programming */,
+				C79FE1821801182300DEB476 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C79FE16E1801144B00DEB476 /* Products */ = {
+		C79FE1821801182300DEB476 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C79FE16D1801144B00DEB476 /* libC Programming.dylib */,
+				C79FE1811801182300DEB476 /* C Programming */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C79FE1831801182300DEB476 /* C Programming */ = {
+			isa = PBXGroup;
+			children = (
+				C7029ED01801191B00E5A942 /* C_Programming.1 */,
+				C7029ECA1801188F00E5A942 /* CElsius.c */,
+				C7029ECB1801188F00E5A942 /* Hello World.c */,
+				C7029ECC1801188F00E5A942 /* main.c */,
+			);
+			path = "C Programming";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		C79FE16B1801144A00DEB476 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		C79FE16C1801144A00DEB476 /* C Programming */ = {
+		C79FE1801801182300DEB476 /* C Programming */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C79FE1711801144B00DEB476 /* Build configuration list for PBXNativeTarget "C Programming" */;
+			buildConfigurationList = C79FE18A1801182300DEB476 /* Build configuration list for PBXNativeTarget "C Programming" */;
 			buildPhases = (
-				C79FE1691801144A00DEB476 /* Sources */,
-				C79FE16A1801144A00DEB476 /* Frameworks */,
-				C79FE16B1801144A00DEB476 /* Headers */,
+				C79FE17D1801182300DEB476 /* Sources */,
+				C79FE17E1801182300DEB476 /* Frameworks */,
+				C79FE17F1801182300DEB476 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -72,49 +87,50 @@
 			);
 			name = "C Programming";
 			productName = "C Programming";
-			productReference = C79FE16D1801144B00DEB476 /* libC Programming.dylib */;
-			productType = "com.apple.product-type.library.dynamic";
+			productReference = C79FE1811801182300DEB476 /* C Programming */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C79FE1651801144A00DEB476 /* Project object */ = {
+		C79FE1791801182300DEB476 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Bruno Schneider";
 			};
-			buildConfigurationList = C79FE1681801144A00DEB476 /* Build configuration list for PBXProject "C Programming" */;
+			buildConfigurationList = C79FE17C1801182300DEB476 /* Build configuration list for PBXProject "C Programming" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C79FE1641801144A00DEB476;
-			productRefGroup = C79FE16E1801144B00DEB476 /* Products */;
+			mainGroup = C79FE1781801182300DEB476;
+			productRefGroup = C79FE1821801182300DEB476 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C79FE16C1801144A00DEB476 /* C Programming */,
+				C79FE1801801182300DEB476 /* C Programming */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C79FE1691801144A00DEB476 /* Sources */ = {
+		C79FE17D1801182300DEB476 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79FE1771801149800DEB476 /* Hello World.c in Sources */,
-				C79FE1761801149800DEB476 /* CElsius.c in Sources */,
+				C7029ECE1801188F00E5A942 /* Hello World.c in Sources */,
+				C7029ECD1801188F00E5A942 /* CElsius.c in Sources */,
+				C7029ECF1801188F00E5A942 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C79FE16F1801144B00DEB476 /* Debug */ = {
+		C79FE1881801182300DEB476 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -151,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		C79FE1701801144B00DEB476 /* Release */ = {
+		C79FE1891801182300DEB476 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -182,18 +198,16 @@
 			};
 			name = Release;
 		};
-		C79FE1721801144B00DEB476 /* Debug */ = {
+		C79FE18B1801182300DEB476 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C79FE1731801144B00DEB476 /* Release */ = {
+		C79FE18C1801182300DEB476 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -201,25 +215,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C79FE1681801144A00DEB476 /* Build configuration list for PBXProject "C Programming" */ = {
+		C79FE17C1801182300DEB476 /* Build configuration list for PBXProject "C Programming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C79FE16F1801144B00DEB476 /* Debug */,
-				C79FE1701801144B00DEB476 /* Release */,
+				C79FE1881801182300DEB476 /* Debug */,
+				C79FE1891801182300DEB476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C79FE1711801144B00DEB476 /* Build configuration list for PBXNativeTarget "C Programming" */ = {
+		C79FE18A1801182300DEB476 /* Build configuration list for PBXNativeTarget "C Programming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C79FE1721801144B00DEB476 /* Debug */,
-				C79FE1731801144B00DEB476 /* Release */,
+				C79FE18B1801182300DEB476 /* Debug */,
+				C79FE18C1801182300DEB476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C79FE1651801144A00DEB476 /* Project object */;
+	rootObject = C79FE1791801182300DEB476 /* Project object */;
 }
