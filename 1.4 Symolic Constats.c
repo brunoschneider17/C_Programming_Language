@@ -12,7 +12,7 @@
 #define UPPER 300
 #define STEP 20
 
-/* print Fahenheit-Celsius Table */
+/* print Fahenheit-Celsius Table
 
 int main()
 {
@@ -22,3 +22,4 @@ int main()
         printf("%3d %6.1f\n", fahr, (5.0/9.0) * (fahr-32));
     }
 }
+ */
