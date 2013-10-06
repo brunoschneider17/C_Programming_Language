@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-/* Print */
+/* Print Farenheit to Celsius table using While Statment
 
 int main ()
 {
@@ -20,10 +20,13 @@ int main ()
     step = 20;
     
     fahr = lower;
+    printf("Convert Farh to Celsius\n");
     while (fahr <= upper) {
         celsius = (5.0/9.0) * (fahr-32.0);
-        printf("%3.0f %6.1f\n", fahr, celsius);
+        //printf("%3.0f %6.1f\n", fahr, celsius);
+        printf("%6.1f %3.0f\n", celsius, fahr);
         fahr = fahr + step;
     }
     return 0;
 }
+*/
