@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C79FE1761801149800DEB476 /* CElsius.c in Sources */ = {isa = PBXBuildFile; fileRef = C79FE1741801149800DEB476 /* CElsius.c */; };
+		C79FE1771801149800DEB476 /* Hello World.c in Sources */ = {isa = PBXBuildFile; fileRef = C79FE1751801149800DEB476 /* Hello World.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C79FE16D1801144B00DEB476 /* libC Programming.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libC Programming.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79FE1741801149800DEB476 /* CElsius.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CElsius.c; sourceTree = "<group>"; };
+		C79FE1751801149800DEB476 /* Hello World.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Hello World.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,8 @@
 		C79FE1641801144A00DEB476 = {
 			isa = PBXGroup;
 			children = (
+				C79FE1741801149800DEB476 /* CElsius.c */,
+				C79FE1751801149800DEB476 /* Hello World.c */,
 				C79FE16E1801144B00DEB476 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +106,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79FE1771801149800DEB476 /* Hello World.c in Sources */,
+				C79FE1761801149800DEB476 /* CElsius.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +217,7 @@
 				C79FE1731801144B00DEB476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
