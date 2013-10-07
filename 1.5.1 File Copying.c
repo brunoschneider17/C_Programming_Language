@@ -23,7 +23,7 @@ int main()
 }
  */
 
-/* copy input to output; 2nd version */
+/* copy input to output; 2nd version
 
 int main()
 {
@@ -34,3 +34,24 @@ int main()
 
     return 0;
 }
+ */
+
+/* Ex 1-6
+
+int main()
+{
+    getchar() != EOF ? printf("True") : printf("False");
+    return 0;
+}
+ */
+
+
+/* Ex 1-7
+
+int main()
+{
+    int c = EOF;
+    printf("%d\n", c);
+    return 0;
+}
+*/
