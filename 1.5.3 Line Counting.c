@@ -48,7 +48,7 @@ int main()
 }
  */
 
-/* Ex 1-10 */
+/* Ex 1-10
 
 int main()
 {
@@ -59,3 +59,4 @@ int main()
     
     return (0);
 }
+*/

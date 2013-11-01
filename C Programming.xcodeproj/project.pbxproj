@@ -14,6 +14,8 @@
 		C7029ED61802224F00E5A942 /* 1.5.1 File Copying.c in Sources */ = {isa = PBXBuildFile; fileRef = C7029ED51802224F00E5A942 /* 1.5.1 File Copying.c */; };
 		C7029ED818022F5900E5A942 /* 1.5.2 Character Counting.c in Sources */ = {isa = PBXBuildFile; fileRef = C7029ED718022F5900E5A942 /* 1.5.2 Character Counting.c */; };
 		C7029EDA1802357B00E5A942 /* 1.5.3 Line Counting.c in Sources */ = {isa = PBXBuildFile; fileRef = C7029ED91802357B00E5A942 /* 1.5.3 Line Counting.c */; };
+		C73C6A161824617700092A66 /* 1.5.4 Word Counting.c in Sources */ = {isa = PBXBuildFile; fileRef = C73C6A151824617700092A66 /* 1.5.4 Word Counting.c */; };
+		C73C6A1818246CB800092A66 /* 1.6 Arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = C73C6A1718246CB800092A66 /* 1.6 Arrays.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		C7029ED51802224F00E5A942 /* 1.5.1 File Copying.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "1.5.1 File Copying.c"; sourceTree = SOURCE_ROOT; };
 		C7029ED718022F5900E5A942 /* 1.5.2 Character Counting.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "1.5.2 Character Counting.c"; sourceTree = SOURCE_ROOT; };
 		C7029ED91802357B00E5A942 /* 1.5.3 Line Counting.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "1.5.3 Line Counting.c"; sourceTree = SOURCE_ROOT; };
+		C73C6A151824617700092A66 /* 1.5.4 Word Counting.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "1.5.4 Word Counting.c"; sourceTree = SOURCE_ROOT; };
+		C73C6A1718246CB800092A66 /* 1.6 Arrays.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "1.6 Arrays.c"; sourceTree = SOURCE_ROOT; };
 		C79FE1811801182300DEB476 /* C Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,8 @@
 				C7029ED51802224F00E5A942 /* 1.5.1 File Copying.c */,
 				C7029ED718022F5900E5A942 /* 1.5.2 Character Counting.c */,
 				C7029ED91802357B00E5A942 /* 1.5.3 Line Counting.c */,
+				C73C6A151824617700092A66 /* 1.5.4 Word Counting.c */,
+				C73C6A1718246CB800092A66 /* 1.6 Arrays.c */,
 			);
 			path = "C Programming";
 			sourceTree = "<group>";
@@ -135,11 +141,13 @@
 			files = (
 				C7029ED61802224F00E5A942 /* 1.5.1 File Copying.c in Sources */,
 				C7029ED21801CAEE00E5A942 /* 1.3 For Statment.c in Sources */,
+				C73C6A1818246CB800092A66 /* 1.6 Arrays.c in Sources */,
 				C7029ED418021FB700E5A942 /* 1.4 Symolic Constats.c in Sources */,
 				C7029EDA1802357B00E5A942 /* 1.5.3 Line Counting.c in Sources */,
 				C7029ECE1801188F00E5A942 /* 1.1 Hello World.c in Sources */,
 				C7029ECD1801188F00E5A942 /* 1.2 CElsius.c in Sources */,
 				C7029ED818022F5900E5A942 /* 1.5.2 Character Counting.c in Sources */,
+				C73C6A161824617700092A66 /* 1.5.4 Word Counting.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
