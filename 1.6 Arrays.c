@@ -37,5 +37,4 @@ int main() {
 int main()
 {
     int c, i;
-    i = getchar();
 }
