@@ -1,4 +1,4 @@
-//
+git c//
 //  1.6 Arrays.c
 //  C Programming
 //
@@ -37,5 +37,5 @@ int main() {
 int main()
 {
     int c, i;
-    
+    i = getchar();
 }
