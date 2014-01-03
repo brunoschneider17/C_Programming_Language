@@ -62,3 +62,5 @@
     }
     printf("%d %d %d\n", nl, nw, nc);
 }*/
+
+/*Teste*/
